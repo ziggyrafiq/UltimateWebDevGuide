@@ -1,0 +1,16 @@
+<canvas id="myCanvas" width="200" height="100"></canvas>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    var x = 10;
+
+    function draw() {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.fillStyle = 'blue';
+        context.fillRect(x, 10, 100, 50);
+        x += 2;
+        requestAnimationFrame(draw);
+    }
+
+    draw();
+</script>

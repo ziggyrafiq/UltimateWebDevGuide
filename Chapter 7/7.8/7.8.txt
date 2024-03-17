@@ -1,0 +1,21 @@
+<label>Gender:</label>
+<input type="radio" id="male" name="gender" class="custom-radio">
+<label for="male">Male</label>
+
+<input type="radio" id="female" name="gender" class="custom-radio">
+<label for="female">Female</label>
+
+.custom-radio {
+    appearance: none; /* Remove default styles */
+    -webkit-appearance: none; /* For older versions of Safari */
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 2px solid #666;
+    border-radius: 50%;
+}
+
+.custom-radio:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}

@@ -1,0 +1,11 @@
+/* Grid container */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-gap: 20px; /* Gap between grid items */
+}
+
+/* Grid items */
+.item {
+    grid-column: span 2; /* Span two columns */
+}

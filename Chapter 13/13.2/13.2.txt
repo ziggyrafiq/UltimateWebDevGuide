@@ -1,0 +1,13 @@
+// Create a shadow DOM for a custom element
+const shadow = this.attachShadow({ mode: 'open' });
+
+HTML Templates
+HTML templates allow you to define fragments of markup that can be cloned and inserted into the DOM as needed. This is particularly useful for web components to define their structure.
+<template id="my-template">
+    <style>
+        /* Styles specific to the template */
+    </style>
+    <div>
+        <!-- Content for the template -->
+    </div>
+</template>

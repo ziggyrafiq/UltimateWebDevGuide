@@ -1,0 +1,10 @@
+// Change the text content of an element
+element.textContent = "New Text";
+
+// Change the attribute of an element
+element.setAttribute("src", "new-image.jpg");
+
+// Create a new element and append it to the DOM
+var newElement = document.createElement("p");
+newElement.textContent = "This is a new paragraph.";
+document.body.appendChild(newElement);

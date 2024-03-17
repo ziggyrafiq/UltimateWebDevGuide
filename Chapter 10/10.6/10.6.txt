@@ -1,0 +1,9 @@
+function fetchData() {
+    return new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            // Simulate fetching data
+            var data = { name: "John" };
+            resolve(data); // Resolve the promise with the data
+        }, 2000);
+    });
+}

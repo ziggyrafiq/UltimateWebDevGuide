@@ -1,0 +1,3 @@
+<title>My HTML5 Page</title>
+<meta name="description" content="A description of my web page.">
+<meta name="keywords" content="HTML5, web development, best practices">

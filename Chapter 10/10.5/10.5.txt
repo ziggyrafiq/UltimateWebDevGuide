@@ -1,0 +1,4 @@
+// Add an event listener to an element
+element.addEventListener("click", function() {
+    alert("Element clicked!");
+});

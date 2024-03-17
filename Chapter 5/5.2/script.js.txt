@@ -1,0 +1,9 @@
+if ("geolocation" in navigator) {
+    var watchId = navigator.geolocation.watchPosition(function(position) {
+        var latitude = position.coords.latitude;
+        var longitude = position.coords.longitude;
+        console.log("Updated Location - Latitude: " + latitude + ", Longitude: " + longitude);
+    });
+} else {
+    console.log("Geolocation is not available in this browser.");
+}

@@ -1,0 +1,1 @@
+<button role="button" onclick="doSomething()">Click Me</button>

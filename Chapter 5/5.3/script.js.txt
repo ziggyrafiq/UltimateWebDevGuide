@@ -1,0 +1,9 @@
+// Storing data
+localStorage.setItem("username", "john_doe");
+
+// Retrieving data
+var username = localStorage.getItem("username");
+console.log("Username: " + username);
+
+// Removing data
+localStorage.removeItem("username");

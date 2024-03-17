@@ -1,0 +1,8 @@
+// Load and run a WebAssembly module
+fetch('my-module.wasm')
+    .then(response => response.arrayBuffer())
+    .then(bytes => WebAssembly.instantiate(bytes))
+    .then(module => {
+        const result = module.instance.exports.myFunction();
+        console.log(result);
+    });

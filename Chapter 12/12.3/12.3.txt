@@ -1,0 +1,10 @@
+// Instead of updating the DOM in a loop, batch updates:
+var container = document.getElementById("container");
+var fragment = document.createDocumentFragment();
+
+for (var i = 0; i < 1000; i++) {
+    var div = document.createElement("div");
+    fragment.appendChild(div);
+}
+
+container.appendChild(fragment);

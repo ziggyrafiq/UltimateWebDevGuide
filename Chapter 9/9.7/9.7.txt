@@ -1,0 +1,6 @@
+/* Hide the navigation menu on small screens */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+}

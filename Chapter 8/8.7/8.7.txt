@@ -1,0 +1,4 @@
+<!-- Test your web page with a screen reader -->
+<div aria-live="polite">
+    This is an accessible live region.
+</div>

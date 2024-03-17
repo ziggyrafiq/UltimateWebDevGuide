@@ -1,0 +1,10 @@
+/* Standard property */
+div {
+    transition: transform 0.3s;
+}
+
+/* Vendor-prefixed property */
+div {
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+}

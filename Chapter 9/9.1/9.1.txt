@@ -1,0 +1,4 @@
+/* Rounded corners for a div */
+div {
+    border-radius: 10px;
+}

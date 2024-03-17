@@ -1,0 +1,18 @@
+.custom-checkbox {
+    appearance: none; /* Remove default styles */
+    -webkit-appearance: none; /* For older versions of Safari */
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 2px solid #666;
+    border-radius: 4px;
+}
+
+.custom-checkbox:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
+<label for="custom-checkbox">Custom Checkbox:</label>
+<input type="checkbox" id="custom-checkbox" class="custom-checkbox">

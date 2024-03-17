@@ -1,0 +1,11 @@
+/* Flex container */
+.container {
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+/* Flex items */
+.item {
+    flex: 1; /* Equal width for all items */
+}

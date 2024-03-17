@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Using JavaScript</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <script>
+        // Inline JavaScript
+        alert("Welcome to JavaScript!");
+    </script>
+</body>
+</html>

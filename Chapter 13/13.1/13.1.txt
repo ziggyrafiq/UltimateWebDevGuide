@@ -1,0 +1,13 @@
+<!-- Define a custom element -->
+<my-button></my-button>
+
+
+// Register a custom element
+class MyButton extends HTMLElement {
+    constructor() {
+        super();
+        // Define the element's behavior and rendering here
+    }
+}
+
+customElements.define('my-button', MyButton);

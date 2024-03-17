@@ -1,0 +1,1 @@
+<img src="image.jpg" srcset="image-small.jpg 320w, image-medium.jpg 768w, image-large.jpg 1024w" alt="Responsive Image">

@@ -1,0 +1,8 @@
+// Access an element by its ID
+var element = document.getElementById("myElement");
+
+// Access elements by class name
+var elements = document.getElementsByClassName("myClass");
+
+// Access elements by tag name
+var elements = document.getElementsByTagName("div");
